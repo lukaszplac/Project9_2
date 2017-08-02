@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightblue; }
+  body > div {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    animation: myA 4s ease-in-out 0s infinite;} 
+    body > div > h2 {
+      color: yellow;
+      text-decoration: underline; }
+    body > div > p {
+      color: white;
+      text-transform: uppercase; }
+
+@keyframes myA {
+  0% {background: black;}
+  50% {background: blue;}
+  100% {background: black;}
+}
+/*# sourceMappingURL=style.css.map */
